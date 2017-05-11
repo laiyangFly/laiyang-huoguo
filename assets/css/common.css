@@ -1,0 +1,141 @@
+html *{
+    box-sizing:border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: 0;
+    text-size-adjust: none;
+    font-family: "微软雅黑";
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 1.5;
+    margin:0 auto;
+    word-break: break-all;
+    word-wrap: break-word;
+    min-width:1200px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover, a:visited, a:link, a:active {
+    color: #000000;
+}
+input[type="password"],input[type="text"],input[type="button"],input[type="submit"],input[type="reset"],input[type="file"]::-webkit-file-upload-button,button,select,textarea{
+    -webkit-appearance:none;
+    appearance:none;
+    border: none;
+    border-radius: 0;
+}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{
+    color:#9E9E9E;
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+    color:#9E9E9E;
+}
+input::-moz-placeholder,textarea::-moz-placeholder{
+    color: #9E9E9E;
+}
+img, embed, object, video, iframe {
+    max-width:100% !important;
+}
+.fixed{
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.bg_white{
+    background: #fff;
+}
+.pointer{
+    cursor:pointer;
+}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+.inline_block{
+    display: inline-block;
+}
+.cover{
+    background-size:cover !important;
+}
+.contain{
+    background-size:contain !important;
+}
+.clearFloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearFloat{zoom:1}
+.float_left{
+    float:left;
+}
+.float_right{
+    float:right;
+}
+.text_center{
+    text-align: center;
+}
+.text_right{
+    text-align: right;
+}
+.text_line{
+    text-decoration: underline;
+}
+.text_bold{
+    font-weight: bold;
+}
+.xoverflow_scroll{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.f14{
+    font-size: 14px;
+}
+.f18{
+    font-size: 18px;
+}
+.pl30{
+    padding-left: 30px;
+}
+.pr20{
+    padding-right: 20px;
+}
+.pr30{
+    padding-right: 30px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mr15{
+    margin-right: 15px;
+}
+.mr20{
+    margin-right: 20px;
+}
+.corlor_fff{
+    color: #fff;
+}
+.color_666{
+    color: #666666;
+}
+.color_main{
+    color: #1A8CDC;
+}
+.color_red{
+    color: red;
+}
+.color_000{
+    color: #000000;
+}
+.color_999{
+    color: #999999;
+}

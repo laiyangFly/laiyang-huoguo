@@ -1,0 +1,35 @@
+/* Write your styles */
+
+ul{
+  list-style: none;
+}
+.header{  width: 100%;  height: 200px;background: #007aff}
+.header .float_right div{padding: 0 10px;margin-top: 20px}
+.header .float_right div p{text-align: right;  font-size: 16px;  line-height: 2;  color: #f9c41e;}
+.header .float_right span{  display: inline-block;text-align: center;margin-top: 36px;width: 268px;height: 42px;background-color: #f9c41e;font-size: 18px;color: #2e3200;line-height: 42px;  }
+.wrap{width: 1000px;margin: 0 auto}
+.nav{  height: 46px;  background-color: rgb(246, 246, 246);  }
+.nav ul{width: 800px;margin: 0 auto}
+.nav ul li{ float: left;width: 100px;text-align: center;font-size: 15px;line-height: 46px;position: relative}
+.nav ul li a{cursor: pointer;}
+.nav ul li:hover div{display: block}
+.nav ul li div{background-color: rgb(246, 246, 246);display: none;position: absolute;top:40px;left: 0;width: 100%;z-index: 999}
+.nav ul li div a{display: block}
+.swiper-container{width: 100%;height: 400px}
+.swiper-pagination {text-align: center;margin: 0 auto;margin: 16px;position: inherit !important;}
+.swiper-pagination span{display: inline-block; width: 12px; height: 12px; background-color: #f9c41e;margin: 0 6px}
+.img-wrap{width: 1000px;margin: 45px auto 109px}
+.img-wrap a{display: inline-block;width: 220px;height: 136px;margin: 0 20px;background: #007aff;float: left}
+.img-wrap a:first-child{margin-left: 0 !important;}
+.img-wrap a:last-child{margin-right: 0 !important;}
+.img-wrap a img{width: 100%;height: 100%}
+
+.footer{height: 246px;background: rebeccapurple}
+.footer .float_left{margin-top: 40px}
+.footer .wx-wrap{position: relative}
+.wx-wrap div{position: absolute;  left: 120px;top:0;padding: 0 10px}
+.wx-wrap div p{text-align: right;  font-size: 16px;  line-height: 2;  color: #f9c41e;}
+.footer .friendLink{ font-size: 14px;font-weight: 300;line-height: 2.43;text-align: left;color: #f9c41e;margin-top: 42px}
+.footer .friendLink a{margin-right: 20px}
+.footer .float_right{margin-top: 40px}
+.footer .float_right p{ font-size: 14px;font-weight: 300; line-height: 1.86;text-align: left;color: #f9c41e;}
